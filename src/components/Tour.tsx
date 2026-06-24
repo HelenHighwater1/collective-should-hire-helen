@@ -90,13 +90,13 @@ export default function Tour({
         style={anchorStyle ?? undefined}
       >
         <RoughBox
-          stroke="var(--color-purple)"
+          stroke="var(--color-blue)"
           fill="#ffffff"
           roughness={0.85}
           shadow
           paddingClassName="px-7 py-6 sm:px-8 sm:py-7"
         >
-          <h2 id="tour-title" className="font-hand text-xl text-purple sm:whitespace-nowrap">
+          <h2 id="tour-title" className="font-hand text-xl text-blue sm:whitespace-nowrap">
             {title}
           </h2>
           <p id="tour-body" className="mt-3 text-sm leading-relaxed text-stone-600">
@@ -109,7 +109,7 @@ export default function Tour({
                 <span
                   key={i}
                   className={`h-1.5 w-1.5 rounded-full transition-colors ${
-                    i === step ? 'bg-purple' : 'bg-stone-300'
+                    i === step ? 'bg-blue' : 'bg-stone-300'
                   }`}
                 />
               ))}
@@ -120,7 +120,7 @@ export default function Tour({
                 <button
                   type="button"
                   onClick={onBack}
-                  className="text-xs text-muted transition-colors hover:text-purple"
+                  className="text-xs text-muted transition-colors hover:text-blue"
                 >
                   Back
                 </button>
@@ -128,7 +128,7 @@ export default function Tour({
               <button
                 type="button"
                 onClick={onSkip}
-                className="text-xs text-muted transition-colors hover:text-purple"
+                className="text-xs text-muted transition-colors hover:text-blue"
               >
                 Skip tour
               </button>
@@ -136,7 +136,7 @@ export default function Tour({
                 ref={nextRef}
                 type="button"
                 onClick={onNext}
-                className="rounded-sm bg-purple px-4 py-1.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                className="rounded-sm bg-blue px-4 py-1.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
               >
                 {isLast ? 'Got it' : 'Next'}
               </button>

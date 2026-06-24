@@ -55,8 +55,8 @@ function ToggleOption({
 }) {
   return (
     <RoughBox
-      stroke={active ? 'var(--color-purple)' : '#ced4da'}
-      fill={active ? 'rgba(121, 80, 242, 0.1)' : 'transparent'}
+      stroke={active ? 'var(--color-blue)' : '#ced4da'}
+      fill={active ? 'rgba(25, 113, 194, 0.1)' : 'transparent'}
       paddingClassName="p-0"
       className="transition-transform duration-150 active:scale-[0.98]"
     >
@@ -64,7 +64,7 @@ function ToggleOption({
         type="button"
         onClick={onClick}
         className={`w-full px-2 py-2 text-center text-sm transition-colors duration-200 ${
-          active ? 'font-semibold text-purple' : 'text-muted hover:text-ink'
+          active ? 'font-semibold text-blue' : 'text-muted hover:text-ink'
         }`}
       >
         {children}
@@ -80,7 +80,7 @@ export default function InputCard({ inputs, onChange }: InputCardProps) {
 
   return (
     <RoughBox
-      stroke="var(--color-purple)"
+      stroke="var(--color-blue)"
       fill="#ffffff"
       roughness={0.9}
       shadow
@@ -89,7 +89,7 @@ export default function InputCard({ inputs, onChange }: InputCardProps) {
     >
       <div className="space-y-5">
         <div className="text-center">
-          <h2 className="font-hand text-2xl text-purple">Your numbers</h2>
+          <h2 className="font-hand text-2xl text-blue">Your numbers</h2>
           <p className="mt-1 text-sm text-muted">
             Adjust inputs to compare side by side
           </p>
@@ -113,7 +113,7 @@ export default function InputCard({ inputs, onChange }: InputCardProps) {
               <select
                 value={inputs.stateCode}
                 onChange={(e) => onChange({ stateCode: e.target.value })}
-                className="w-full cursor-pointer appearance-none bg-transparent pr-6 text-base text-ink outline-none transition-colors duration-200 hover:text-purple"
+                className="w-full cursor-pointer appearance-none bg-transparent pr-6 text-base text-ink outline-none transition-colors duration-200 hover:text-blue"
               >
                 {STATE_OPTIONS.map((s) => (
                   <option key={s.code} value={s.code}>
@@ -150,7 +150,7 @@ export default function InputCard({ inputs, onChange }: InputCardProps) {
           <button
             type="button"
             onClick={() => setRefineOpen((o) => !o)}
-            className="flex w-full items-center justify-between text-base text-muted transition-colors duration-200 hover:text-purple"
+            className="flex w-full items-center justify-between text-base text-muted transition-colors duration-200 hover:text-blue"
             aria-expanded={refineOpen}
           >
             <span>Refine your estimate</span>

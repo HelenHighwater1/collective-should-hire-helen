@@ -27,7 +27,7 @@ export function BreakdownTooltipPopup({
         paddingClassName="px-3 py-2.5"
       >
         <p className="font-hand text-sm text-ink">{label}</p>
-        <p className="mt-0.5 text-xs font-semibold tabular-nums text-purple">
+        <p className="mt-0.5 text-xs font-semibold tabular-nums text-blue">
           <AnimatedNumber value={value} />
         </p>
         <ul className="mt-2 space-y-1 border-t border-dashed border-stone-200 pt-2">
@@ -68,7 +68,7 @@ export function TooltipTrigger({
     <li
       className={`group relative flex items-center justify-between gap-2 rounded-sm px-1 py-0.5 text-sm outline-none ${
         hasTooltip
-          ? 'cursor-help hover:bg-stone-100/80 focus-visible:bg-stone-100/80 focus-visible:ring-2 focus-visible:ring-purple/40'
+          ? 'cursor-help hover:bg-stone-100/80 focus-visible:bg-stone-100/80 focus-visible:ring-2 focus-visible:ring-blue/40'
           : ''
       }`}
       tabIndex={hasTooltip ? 0 : undefined}

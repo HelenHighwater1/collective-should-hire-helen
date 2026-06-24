@@ -12,7 +12,7 @@ import { compareScenarios } from './lib/tax'
 
 const SLICE_COLORS = {
   federal: '#e03131',
-  payroll: '#1971c2',
+  payroll: '#7950f2',
   state: '#f59f00',
   keep: '#2f9e44',
 }
@@ -194,7 +194,28 @@ function App() {
   return (
     <div className="flex min-h-dvh flex-col">
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-10 sm:px-6">
-        <header className="header-enter mb-8 text-center">
+        <header className="header-enter relative mb-8 text-center">
+          <nav className="absolute right-0 top-0 flex items-center gap-4 text-sm">
+            <a
+              href="https://heyimhelen.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted transition-colors hover:text-blue"
+            >
+              Portfolio
+            </a>
+            <a
+              href="https://github.com/HelenHighwater1/collective-should-hire-helen#should-i-s-corp"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub repository"
+              className="text-ink transition-opacity hover:opacity-60"
+            >
+              <svg className="h-[18px] w-[18px]" aria-hidden="true">
+                <use href="/icons.svg#github-icon" />
+              </svg>
+            </a>
+          </nav>
           <h1 className="font-hand text-4xl text-ink sm:text-5xl">
             Should I S-Corp?
           </h1>

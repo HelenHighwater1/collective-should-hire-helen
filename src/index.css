@@ -35,7 +35,7 @@
   --color-paper: #faf8f3;
   --color-green: #2f9e44;
   --color-orange: #f08c00;
-  --color-purple: #7950f2;
+  --color-blue: #1971c2;
   --color-red: #e03131;
 }
 
@@ -52,7 +52,7 @@
   }
 
   ::selection {
-    background-color: rgba(121, 80, 242, 0.2);
+    background-color: rgba(25, 113, 194, 0.2);
   }
 }
 
@@ -86,10 +86,10 @@
     z-index: 50;
     background: var(--color-paper);
     border-radius: 4px;
-    outline: 3px dashed var(--color-purple);
+    outline: 3px dashed var(--color-blue);
     outline-offset: 6px;
     box-shadow:
-      0 0 0 4px rgba(121, 80, 242, 0.12),
+      0 0 0 4px rgba(25, 113, 194, 0.12),
       0 8px 24px rgba(30, 30, 30, 0.08);
     animation: tour-highlight-pulse 2s ease-in-out infinite;
   }
@@ -143,12 +143,12 @@
   0%,
   100% {
     box-shadow:
-      0 0 0 4px rgba(121, 80, 242, 0.12),
+      0 0 0 4px rgba(25, 113, 194, 0.12),
       0 8px 24px rgba(30, 30, 30, 0.08);
   }
   50% {
     box-shadow:
-      0 0 0 6px rgba(121, 80, 242, 0.18),
+      0 0 0 6px rgba(25, 113, 194, 0.18),
       0 8px 28px rgba(30, 30, 30, 0.1);
   }
 }
