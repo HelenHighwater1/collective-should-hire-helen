@@ -23,22 +23,22 @@ const TOUR_STEPS: { target: TourTarget; title: string; body: string }[] = [
   {
     target: 'none',
     title: 'Welcome, Collective Team, to my demo app!',
-    body: 'Should I S-Corp? is a live tax savings calculator for freelancers. Enter your numbers and both scenarios update instantly — no submit button, no page reload.',
+    body: "I'm Helen, and instead of just sending a resume I built you something. It's a live S Corp tax calculator for exactly the people you serve - freelancers and solo entrepreneurs wondering if restructuring would actually save them money. Let me give you the quick tour.",
   },
   {
     target: 'form',
-    title: 'Your inputs',
-    body: 'Start here: enter annual income, pick your state and filing status, and optionally refine with business expenses. Every change recalculates both sides immediately.',
+    title: 'Start with your numbers',
+    body: "Type in your income, pick your state, set your filing status - and open \"Refine\" if you want to add business expenses. There's no submit button; everything recalculates the instant you change anything.",
   },
   {
     target: 'sole',
-    title: 'Sole Proprietorship',
-    body: 'This panel shows how your income breaks down as a sole prop — federal tax, self-employment / FICA, state tax, and what you keep. Hover any slice or legend row to see the math.',
+    title: 'Life as a sole proprietor',
+    body: "Here's where your money goes today: federal tax, self-employment / FICA, state tax, and what you actually keep. Hover any slice or line to see the real math behind it - the bracket you're in, your effective rate, your state's specific fees.",
   },
   {
     target: 'scorp',
-    title: 'S-Corp',
-    body: 'Compare against an S Corp: FICA only applies to your salary (not distributions), plus state fees and overhead. The callout below shows how much more — or less — you would keep.',
+    title: 'The same income as an S Corp',
+    body: "Now the comparison. As an S Corp, FICA only hits your salary, not your distributions - but you pick up state fees and some overhead. The callout spells out exactly how much more (or less) you'd keep, so the tradeoff is honest. That gap is the whole reason this tool exists.",
   },
 ]
 

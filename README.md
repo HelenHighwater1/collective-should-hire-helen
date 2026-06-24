@@ -16,7 +16,7 @@ The state tax data is real - I researched and compiled current 2026 fee structur
 
 Every decision maps back to something in the job description or something I know matters at Collective.
 
-**React + TypeScript** is the foundation. The role lists both. The calculator is fully reactive — no submit button, everything updates as you type.
+**React + TypeScript** is the foundation. The role lists both. The calculator is fully reactive - no submit button, everything updates as you type.
 
 **Tailwind CSS** for styling. No component library. Every layout decision is in the code.
 
@@ -26,7 +26,7 @@ Every decision maps back to something in the job description or something I know
 
 **The math is isolated in its own pure utility modules** - completely separate from the UI, and written to be unit testable. I wanted the business logic to be readable and auditable on its own, because tax math that's tangled into components is a debugging nightmare.
 
-**The state tax JSON** is its own artifact. I treated it as a data contract — the calculator degrades gracefully if a state entry is missing, so the data layer and the logic layer are decoupled.
+**The state tax JSON** is its own artifact. I treated it as a data contract - the calculator degrades gracefully if a state entry is missing, so the data layer and the logic layer are decoupled.
 
 ## Honest notes
 

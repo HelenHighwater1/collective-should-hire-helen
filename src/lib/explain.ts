@@ -38,11 +38,11 @@ function federalBreakdown(netProfit: number, filing: Inputs['filingStatus']): Br
     { label: 'Taxable income', value: formatCurrency(detail.taxableIncome) },
     {
       label: 'Marginal bracket',
-      value: detail.taxableIncome > 0 ? pct(detail.marginalRate) : '—',
+      value: detail.taxableIncome > 0 ? pct(detail.marginalRate) : '-',
     },
     {
       label: 'Effective rate',
-      value: detail.taxableIncome > 0 ? pct(detail.effectiveRate) : '—',
+      value: detail.taxableIncome > 0 ? pct(detail.effectiveRate) : '-',
     },
     { label: 'Federal tax', value: formatCurrency(detail.tax) },
   ]
