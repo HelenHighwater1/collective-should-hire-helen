@@ -134,10 +134,15 @@ export function RoughPie({ size, data, disabled = false }: RoughPieProps) {
       if (sweep >= Math.PI * 2 - 0.0001) {
         svg.appendChild(rc.circle(cx, cy, diameter, options))
       } else {
-        svg.appendChild(rc.arc(cx, cy, diameter, diameter, start, stop, true, options))
+        // Draw the wedge as a path rather than rc.arc(): roughjs's arc routine
+        // subdivides by a fixed angular increment, so a near-zero sweep (which
+        // happens on intermediate animation frames as a slice shrinks toward 0)
+        // generates a runaway number of points and throws "Maximum call stack
+        // size exceeded". A path wedge renders identically and is bounded.
+        svg.appendChild(rc.path(wedgePath(cx, cy, radius, start, stop), options))
       }
     })
-  }, [size, total, geometry, cx, cy, diameter])
+  }, [size, total, geometry, cx, cy, diameter, radius])
 
   const interactive = !disabled && total > 0
 

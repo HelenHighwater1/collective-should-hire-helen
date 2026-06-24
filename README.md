@@ -1,6 +1,6 @@
 # Should I S-Corp?
 
-Hey, Collective team.
+Hey, Collective team.  I built an app just for you!
 
 ## Why I built this
 
