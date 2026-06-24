@@ -105,6 +105,8 @@ function App() {
     }
   }
 
+  const handleTourBack = () => setTourStep((s) => Math.max(0, s - 1))
+
   const handleTourSkip = () => closeTour()
 
   const result = useMemo(() => compareScenarios(inputs), [inputs])
@@ -281,6 +283,7 @@ function App() {
           title={TOUR_STEPS[tourStep].title}
           body={TOUR_STEPS[tourStep].body}
           onNext={handleTourNext}
+          onBack={handleTourBack}
           onSkip={handleTourSkip}
           isLast={tourStep === TOUR_STEPS.length - 1}
           anchorRef={gridRef}

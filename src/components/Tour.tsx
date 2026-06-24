@@ -7,6 +7,7 @@ type TourProps = {
   title: string
   body: string
   onNext: () => void
+  onBack: () => void
   onSkip: () => void
   isLast: boolean
   anchorRef?: React.RefObject<HTMLElement | null>
@@ -20,6 +21,7 @@ export default function Tour({
   title,
   body,
   onNext,
+  onBack,
   onSkip,
   isLast,
   anchorRef,
@@ -68,6 +70,8 @@ export default function Tour({
     }
   }, [anchorRef, step])
 
+  const isAnchored = anchorStyle !== null
+
   return (
     <>
       <div
@@ -80,7 +84,9 @@ export default function Tour({
         aria-modal="true"
         aria-labelledby="tour-title"
         aria-describedby="tour-body"
-        className="fixed bottom-6 left-1/2 z-[60] w-[min(22rem,calc(100vw-2rem))] -translate-x-1/2"
+        className={`fixed z-[60] w-[min(32rem,calc(100vw-2rem))] ${
+          isAnchored ? '' : 'bottom-6 left-1/2 -translate-x-1/2'
+        }`}
         style={anchorStyle ?? undefined}
       >
         <RoughBox
@@ -88,16 +94,16 @@ export default function Tour({
           fill="#ffffff"
           roughness={0.85}
           shadow
-          paddingClassName="px-5 py-5"
+          paddingClassName="px-7 py-6 sm:px-8 sm:py-7"
         >
-          <h2 id="tour-title" className="font-hand text-xl text-purple">
+          <h2 id="tour-title" className="font-hand text-xl text-purple sm:whitespace-nowrap">
             {title}
           </h2>
-          <p id="tour-body" className="mt-2 text-sm leading-relaxed text-stone-600">
+          <p id="tour-body" className="mt-3 text-sm leading-relaxed text-stone-600">
             {body}
           </p>
 
-          <div className="mt-4 flex items-center justify-between gap-4">
+          <div className="mt-5 flex items-center justify-between gap-4">
             <div className="flex gap-1.5" aria-hidden="true">
               {Array.from({ length: total }, (_, i) => (
                 <span
@@ -110,6 +116,15 @@ export default function Tour({
             </div>
 
             <div className="flex items-center gap-3">
+              {step > 0 && (
+                <button
+                  type="button"
+                  onClick={onBack}
+                  className="text-xs text-muted transition-colors hover:text-purple"
+                >
+                  Back
+                </button>
+              )}
               <button
                 type="button"
                 onClick={onSkip}
