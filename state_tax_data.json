@@ -1,0 +1,1495 @@
+{
+  "AL": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "percentOfNetWorth",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": 50,
+    "franchiseTaxNotes": "Alabama eliminated the separate Secretary of State annual report requirement for all corporations and LLCs effective October 1, 2024 (Act 2024-213). The Business Privilege Tax (BPT) serves as both the annual tax and reporting obligation, filed on Form PPT for S-corps/pass-throughs with the AL Dept of Revenue. For tax years beginning on or after Jan 1, 2024, entities whose calculated BPT is $100 or less are fully EXEMPT from filing and paying (no $50 minimum applies to them). For those with BPT above $100, rates are graduated by net worth: 0.25% on first $200,000; 0.175% on $200,001\u2013$500,000; 0.125% on $500,001\u2013$1,000,000; 0.075% on amounts over $1,000,000. Maximum BPT is $15,000. The annual report fee of $10 to the Secretary of State was eliminated in 2024 \u2014 there is no longer any SOS filing required. Small S-corps with modest net worth will often owe $0. Complexity arises from the net worth calculation requiring federal tax return data and apportionment.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "Act 2022-252: For TY 2024+, entities with calculated BPT of $100 or less are fully exempt from filing and paying. Act 2024-213 (Oct 1, 2024): Eliminated the annual report requirement with the Secretary of State for all corporations and LLCs \u2014 no more SOS filing or $10 fee.",
+    "complexityTier": 3,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+      "https://www.revenue.alabama.gov/faq-categories/business-privilege-tax/",
+      "https://www.discern.com/resources/alabama-franchise-tax-information"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 500,
+        "rate": 0.02
+      },
+      {
+        "upTo": 3000,
+        "rate": 0.04
+      },
+      {
+        "upTo": null,
+        "rate": 0.05
+      }
+    ]
+  },
+  "AK": {
+    "annualReportFee": 50,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Alaska has no state franchise tax and no state income tax. S-corps file a biennial report (every two years) with the Alaska Division of Corporations, DCCED. The biennial fee is $100, which equates to $50 annually when amortized. No state corporate income tax applies to pass-through entities. The only ongoing state obligation for S-corps is the biennial report. There is no entity-level tax on S-corp income at the state level.",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "No significant changes for 2024\u20132026 affecting S-corps. Biennial report fee has remained at $100 per cycle.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.commerce.alaska.gov/web/cbpl/corporations/biennialreports.aspx",
+      "https://www.swyftfilings.com/s-corp/alaska/",
+      "https://www.llcuniversity.com/alaska-llc/taxes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "AZ": {
+    "annualReportFee": 45,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Arizona has no franchise or privilege tax on S-corporations. Corporations (including S-corps) must file an annual report with the Arizona Corporation Commission and pay a $45 filing fee. LLCs in Arizona do NOT file annual reports. S-corp income passes through to shareholders who pay Arizona's flat 2.5% individual income tax. Arizona S-corps must file Form 120S with the AZ Dept of Revenue. There is no entity-level income tax on the S-corp itself beyond the annual report fee.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.025,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Arizona completed its flat tax transition to 2.5% effective January 1, 2023. The Arizona Corporation Commission launched a new 'Arizona Business Connect' portal in January 2026 replacing the eCorp system; annual report fees remain $45 for corporations.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://azcc.gov/corporations/fee-and-payment-info",
+      "https://azdor.gov/business/corporate-income-tax",
+      "https://www.swyftfilings.com/file-annual-report/arizona/",
+      "https://www.upcounsel.com/arizona-s-corporation"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "AR": {
+    "annualReportFee": 150,
+    "franchiseTaxType": "percentOfNetWorth",
+    "franchiseTaxAmount": 0.003,
+    "franchiseTaxMinimum": 150,
+    "franchiseTaxNotes": "Arkansas requires corporations to file an Annual Franchise Tax Report by May 1 each year. For stock corporations (which includes S-corps), the fee is 0.3% of outstanding capital stock, with a minimum fee of $150. Non-stock corporations pay a flat $300. There is an additional $5 online filing fee. The minimum of $150 effectively means most small S-corps pay exactly $150. This filing combines the annual report and franchise tax. Late filings incur a $25 penalty plus daily interest, capped at double the original fee. Shareholders pay Arkansas's graduated personal income tax (up to 4.4% top rate as of 2026) on S-corp distributions. [BRACKET NOTE: TOP RATE CHANGE: Arkansas reduced top individual income tax rate from 3.9% to 3.7% retroactive to January 1, 2026, via HB 1001 and SB 1 signed May 6, 2026 (2026 First Extraordinary Session). The two-table system applies: for income \u2264$94,700, use 5-bracket table (0%/2%/3%/3.4%/3.7%); for income >$94,700, use 2-bracket table (2% on first $4,700, 3.7% above). A bracket adjustment prevents cliff effects for income $94,701\u2013$97,600. Brackets in the personalIncomeTaxBrackets field represent the main (\u2264$94,700) table which covers the vast majority of S-corp owners.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "MAJOR 2026 CHANGE: Top individual income tax rate reduced from 3.9% to 3.7%, retroactive to January 1, 2026, via SB1 and HB1001 signed by Governor Sanders on May 6, 2026 (2026 First Extraordinary Session). Corporate top rate reduced from 4.3% to 4.1% effective January 1, 2027. This is Arkansas's 4th income tax cut in 4 years.",
+    "complexityTier": 2,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.harborcompliance.com/arkansas-annual-report",
+      "https://businessanywhere.io/incorporation-filing-fees-by-state-comparison-chart/",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 5599,
+        "rate": 0.0
+      },
+      {
+        "upTo": 11199,
+        "rate": 0.02
+      },
+      {
+        "upTo": 15999,
+        "rate": 0.03
+      },
+      {
+        "upTo": 26399,
+        "rate": 0.034
+      },
+      {
+        "upTo": null,
+        "rate": 0.037
+      }
+    ]
+  },
+  "CA": {
+    "annualReportFee": 25,
+    "franchiseTaxType": "percentOfIncome",
+    "franchiseTaxAmount": 0.015,
+    "franchiseTaxMinimum": 800,
+    "franchiseTaxNotes": "California S-corps pay a franchise tax of 1.5% of net income OR the $800 minimum, whichever is greater \u2014 unlike LLCs, S-corps do NOT pay the gross receipts fee (that applies only to LLC filers under Form 568). The $800 minimum franchise tax applies regardless of income or activity. S-corps file Form 100S with the CA Franchise Tax Board. The $25 annual report fee is the Statement of Information due to the Secretary of State every year. NOTE: California LLCs (not S-corps) also owe a separate graduated gross receipts fee (\u00a717942) on top of the $800: $0 under $250k, $900 for $250k\u2013$499k, $2,500 for $500k\u2013$999k, $6,000 for $1M\u2013$4.99M, $11,790 for $5M+. This gross receipts fee does NOT apply to entities taxed as S-corps at the state level \u2014 only to LLC filers on Form 568. First-year exemption: Newly incorporated/qualified S-corps (not LLCs) are exempt from the $800 minimum in their first taxable year for tax years beginning on or after Jan 1, 2020. The 15-day rule: if formed in the last 15 days of the tax year with no business conducted, no $800 due for that partial year. [BRACKET NOTE: TY2025 brackets (used on 2026 returns) per official CA FTB Form 540 Tax Rate Schedule X. Brackets are inflation-indexed by FTB using CCPI (3.0% adjustment for 2025). The 13.3% top rate = 12.3% bracket + 1% Mental Health Services Tax (now called Behavioral Health Services Tax) on income >$1,000,000. California taxes all capital gains as ordinary income at the same rates.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No changes to S-corp 1.5% rate or $800 minimum for 2025\u20132026. The first-year LLC exemption (AB 85) that applied to LLCs organized Jan 1, 2021\u2013Jan 1, 2024 has EXPIRED \u2014 as of 2024, every LLC formed in California owes the $800 from year one. The LLC gross receipts fee schedule ($900\u2013$11,790) has not been indexed for inflation since 2007 and remains unchanged.",
+    "complexityTier": 3,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.ftb.ca.gov/file/when-to-file/due-dates-business.html",
+      "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+      "https://reedcorp.tax/helpful-guides/california-llc-fee-schedule/",
+      "https://unclekam.com/taxprofessional/states/california-business-tax/",
+      "https://www.upcounsel.com/800-minimum-franchise-tax"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 11079,
+        "rate": 0.01
+      },
+      {
+        "upTo": 26264,
+        "rate": 0.02
+      },
+      {
+        "upTo": 41452,
+        "rate": 0.04
+      },
+      {
+        "upTo": 57542,
+        "rate": 0.06
+      },
+      {
+        "upTo": 72724,
+        "rate": 0.08
+      },
+      {
+        "upTo": 371479,
+        "rate": 0.093
+      },
+      {
+        "upTo": 445771,
+        "rate": 0.103
+      },
+      {
+        "upTo": 742953,
+        "rate": 0.113
+      },
+      {
+        "upTo": 1000000,
+        "rate": 0.123
+      },
+      {
+        "upTo": null,
+        "rate": 0.133
+      }
+    ]
+  },
+  "CO": {
+    "annualReportFee": 10,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Colorado has no franchise tax on S-corporations. The annual report (Periodic Report) filed with the Secretary of State costs $10 and is one of the lowest filing fees in the nation. S-corp income passes through to shareholders who pay Colorado's flat 4.4% individual income tax. No entity-level income tax applies to the S-corp itself. Colorado's TABOR mechanism can trigger refunds to taxpayers when revenues exceed constitutional limits.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.044,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Colorado's flat individual income tax rate has been 4.4% since 2022. No significant changes for 2025\u20132026 affecting S-corps. The $10 annual report fee has been stable.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://llctaxcalculator.com/llc-state-taxes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "CT": {
+    "annualReportFee": 80,
+    "franchiseTaxType": "percentOfNetWorth",
+    "franchiseTaxAmount": 0.0021,
+    "franchiseTaxMinimum": 250,
+    "franchiseTaxNotes": "Connecticut imposes a capital base tax (franchise-style) at 0.21% of the Connecticut net capital base for income year 2025, dropping further with scheduled phaseout by January 1, 2028. The minimum capital base tax for pass-through entities (including S-corps) is $250. CT S-corps also file a net income return (Form CT-1120S) for informational purposes; shareholders pay CT's graduated income tax (top rate 6.99% as of 2026). The annual report fee is $80 for corporations. CT also has a separate Pass-Through Entity Tax (PTET) election that S-corp owners can use to work around the federal SALT cap. The capital base tax is being phased out: 0.31% for 2023, 0.26% for 2024, 0.21% for 2025, with full elimination by 2028. [BRACKET NOTE: Connecticut tax recapture provision applies for high earners: for each single taxpayer whose CT AGI exceeds $56,500, the 2% bracket benefit phases out at $1,000 per $5,000 of income over that amount. This can push high-income filers toward paying close to the top rate on all income. Connecticut's capital base tax (franchise-style) on S-corps is separate \u2014 see franchiseTaxNotes.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "Connecticut's capital base tax rate dropped from 0.26% to 0.21% for income year 2025 (per Connecticut DRS), and is scheduled to be fully repealed by January 1, 2028. This is a significant ongoing change affecting S-corps.",
+    "complexityTier": 3,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://www.discern.com/resources/franchise-tax-information",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 10000,
+        "rate": 0.02
+      },
+      {
+        "upTo": 50000,
+        "rate": 0.045
+      },
+      {
+        "upTo": 100000,
+        "rate": 0.055
+      },
+      {
+        "upTo": 200000,
+        "rate": 0.06
+      },
+      {
+        "upTo": 250000,
+        "rate": 0.065
+      },
+      {
+        "upTo": 500000,
+        "rate": 0.069
+      },
+      {
+        "upTo": null,
+        "rate": 0.0699
+      }
+    ]
+  },
+  "DE": {
+    "annualReportFee": 50,
+    "franchiseTaxType": "complex",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": 175,
+    "franchiseTaxNotes": "Delaware corporations (including S-corps) owe an annual report fee of $50 PLUS a franchise tax. The franchise tax is calculated using the LESSER of two methods: (1) Authorized Shares Method \u2014 $175 minimum to $200,000 maximum based on number of authorized shares; or (2) Assumed Par Value Capital Method \u2014 $400 minimum based on gross assets relative to issued shares. Most typical small S-corps will pay $175 minimum (Authorized Shares) plus the $50 annual report fee = $225 total. Startups with many authorized shares can face huge bills under the default method; the Assumed Par Value method usually produces far lower amounts for asset-light companies. Delaware does NOT impose a corporate income tax on entities that are incorporated in DE but conduct no business in DE. If actually operating in DE, 8.7% corporate income tax applies to C-corps; S-corps are pass-through so shareholders pay tax. Delaware personal income tax rates are graduated (top 6.6%).",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No changes to Delaware franchise tax structure or rates for 2024\u20132026. Annual report filing deadline remains March 1 for domestic corporations. The $50 annual report fee and $175 minimum franchise tax have been stable.",
+    "complexityTier": 4,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://corp.delaware.gov/paytaxes/",
+      "https://corp.delaware.gov/frtax/",
+      "https://www.wolterskluwer.com/en/expert-insights/delaware-corporations-annual-franchise-report-and-tax-requirement",
+      "https://acuity.co/delaware-tax-deadlines/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 2000,
+        "rate": 0.0
+      },
+      {
+        "upTo": 5000,
+        "rate": 0.022
+      },
+      {
+        "upTo": 10000,
+        "rate": 0.039
+      },
+      {
+        "upTo": 20000,
+        "rate": 0.048
+      },
+      {
+        "upTo": 25000,
+        "rate": 0.052
+      },
+      {
+        "upTo": 60000,
+        "rate": 0.055
+      },
+      {
+        "upTo": null,
+        "rate": 0.066
+      }
+    ]
+  },
+  "FL": {
+    "annualReportFee": 138,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Florida has no personal income tax and does not impose an entity-level income tax on S-corporations (which are pass-through entities). C-corps pay a 5.5% corporate income tax, but properly elected S-corps are exempt. The annual report fee is $138.75 for profit corporations (rounded to $138 here). Florida is one of the most S-corp-friendly states: no franchise tax, no personal income tax on distributions, only the annual report fee. The annual report is filed with the Florida Division of Corporations.",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "No significant changes for 2025\u20132026. The annual report fee was $138.75 for profit corporations as of 2025; verify current amount with Florida Division of Corporations at sunbiz.org as fees can adjust.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://dos.fl.gov/sunbiz/",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "GA": {
+    "annualReportFee": 50,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Georgia does not impose a separate franchise tax on S-corporations. The annual report (called a 'Annual Registration') is filed with the Georgia Secretary of State and costs $50 for domestic corporations. S-corp income passes through to shareholders who pay Georgia's flat 5.19% individual income tax (as of 2025; no additional rate change was triggered for 2026, per Tax Foundation errata correction). Georgia is in the process of phasing down its income tax rate toward 4.99% by 2029 under HB 1437 (2022).",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.0519,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Georgia moved to a flat income tax rate (replacing a graduated system). The rate was 5.49% in 2024, reduced to 5.19% in 2025. Per Tax Foundation's January 2026 errata, no additional rate reduction was triggered for calendar year 2026 \u2014 the 5.19% rate remains in effect for 2026. A further reduction to 4.99% is scheduled for 2027 if revenue triggers are met. No franchise tax changes.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "HI": {
+    "annualReportFee": 12,
+    "franchiseTaxType": "percentOfRevenue",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Hawaii is a Tier 4 complexity state for S-corps. Hawaii imposes a General Excise Tax (GET) on gross receipts from business activity \u2014 NOT a traditional income or franchise tax. The GET rate is typically 4% at the wholesale level and 4.5% at the retail/service level (with county surcharges up to 0.5% in Honolulu, Hawaii County, Kauai County, and Maui County). The GET is a pass-on tax that functions like a gross receipts tax and applies regardless of profitability. S-corps also pay Hawaii net income tax at the entity level: 4.4% on taxable income up to $25,000, 5.4% up to $100,000, and 6.4% on income over $100,000. This makes Hawaii unusual \u2014 S-corps are taxed at the entity level on income AND shareholders pay Hawaii's graduated personal income tax (top rate 11%). The annual report fee is approximately $12 for corporations. Hawaii's combined tax burden for S-corps is among the highest in the nation. [BRACKET NOTE: Hawaii TY2025 brackets per Act 46, SLH 2024. The 11% top rate was unchanged but Act 46 SIGNIFICANTLY widened bracket thresholds effective January 1, 2025 \u2014 this was 'the largest income tax cut in Hawaii's history.' The single filer 1.4% bracket now covers income up to $4,800 (up from $2,400 in 2024), and the 11% bracket now applies above $325,000 (up from $200,000). Further bracket widening is scheduled for TY2027 and TY2029 under Act 46. These TY2025 brackets apply to the 2025 tax year return filed in 2026.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No major structural changes for 2025\u20132026. Hawaii has consistently maintained one of the most complex business tax systems in the U.S. The GET rate structure with county surcharges remains unchanged.",
+    "complexityTier": 4,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://tax.hawaii.gov/",
+      "https://llctaxcalculator.com/llc-state-taxes/",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 4800,
+        "rate": 0.014
+      },
+      {
+        "upTo": 9600,
+        "rate": 0.032
+      },
+      {
+        "upTo": 19200,
+        "rate": 0.055
+      },
+      {
+        "upTo": 28800,
+        "rate": 0.064
+      },
+      {
+        "upTo": 38400,
+        "rate": 0.068
+      },
+      {
+        "upTo": 48000,
+        "rate": 0.072
+      },
+      {
+        "upTo": 72000,
+        "rate": 0.076
+      },
+      {
+        "upTo": 96000,
+        "rate": 0.079
+      },
+      {
+        "upTo": 300000,
+        "rate": 0.0825
+      },
+      {
+        "upTo": 350000,
+        "rate": 0.09
+      },
+      {
+        "upTo": 400000,
+        "rate": 0.1
+      },
+      {
+        "upTo": null,
+        "rate": 0.11
+      }
+    ]
+  },
+  "ID": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Idaho has no franchise or privilege tax on S-corporations. Idaho does not require corporations to file a separate annual report with an associated fee \u2014 ongoing compliance is primarily through tax filings with the Idaho State Tax Commission. S-corp income passes through to shareholders who pay Idaho's flat 5.3% individual income tax (reduced retroactively from 5.695% to 5.3% per House Bill 40, enacted March 2025, retroactive to January 1, 2025). This is a significant recent rate change. There may be a minimal registration renewal fee with the Idaho Secretary of State; verify current requirements as Idaho periodically updates its business compliance requirements.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.053,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Idaho House Bill 40 (enacted March 2025) retroactively reduced the flat individual income tax rate from 5.695% to 5.3%, effective January 1, 2025. This rate applies in 2026.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "IL": {
+    "annualReportFee": 75,
+    "franchiseTaxType": "flat",
+    "franchiseTaxAmount": 100,
+    "franchiseTaxMinimum": 100,
+    "franchiseTaxNotes": "Illinois imposes a corporate franchise tax that is reported and paid as part of the annual report to the Illinois Secretary of State on Form BCA 14.05. The Illinois franchise tax exemption was doubled from $5,000 to $10,000 effective for annual reports due on or after January 1, 2025, meaning entities with a calculated franchise tax of $10,000 or less owe nothing. This effectively exempts virtually all small-to-mid-size S-corps from Illinois franchise tax. The franchise tax rate itself is based on paid-in capital and retained earnings attributable to Illinois, but with the $10,000 exemption, most S-corps will owe $0. The annual report filing fee is $75 for most domestic corporations. Illinois S-corps also have a 1.5% personal property replacement tax (PPRT) on net income \u2014 a flat entity-level tax that effectively applies to all S-corps and partnerships. This PPRT of 1.5% is often overlooked. Shareholders also pay Illinois's flat 4.95% individual income tax on S-corp income.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.0495,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "The Illinois franchise tax exemption was doubled from $5,000 to $10,000 effective for annual reports due on or after January 1, 2025, per Illinois SB 3362. This largely eliminates Illinois franchise tax burden for small businesses. The 1.5% PPRT entity-level tax on S-corp net income has not changed.",
+    "complexityTier": 3,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://www.discern.com/resources/franchise-tax-information",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "IN": {
+    "annualReportFee": 32,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Indiana has no franchise tax or privilege tax on S-corporations. The biennial report for corporations is filed every two years with the Indiana Secretary of State, costing $32 (or approximately $16/year amortized). Some sources list $50 for a two-year period; the $32 figure reflects the online filing fee as of recent years \u2014 verify current amount at inbiz.in.gov. S-corp income passes through to shareholders who pay Indiana's flat 2.95% individual income tax (decreased from 3.0% on January 1, 2026, pursuant to HB 1001 enacted 2023). Indiana also has county-level income taxes (ranging up to about 3.38% in some counties) that apply to resident income.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.0295,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Indiana's flat individual income tax rate decreased from 3.0% to 2.95% on January 1, 2026, per HB 1001 (2023). A further reduction to 2.9% is scheduled for January 1, 2027, with additional reductions as low as 2.55% by 2030 if revenue triggers are met per SB 451 (April 2025).",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "IA": {
+    "annualReportFee": 60,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Iowa has no franchise or privilege tax on S-corporations. The biennial report is filed every 2 years with the Iowa Secretary of State, costing $60 every 2 years ($30/year amortized). Some sources cite the biennial fee as $60, others as $45 \u2014 the $60 figure reflects the most recently confirmed amount; verify at sos.iowa.gov. S-corp income passes through to shareholders who pay Iowa's flat 3.8% individual income tax (confirmed by Iowa Department of Revenue for 2026). Iowa also requires pass-through entities to remit a composite tax on behalf of nonresident members at the same 3.8% rate (reduced from higher graduated rates in prior years).",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.038,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Iowa completed its dramatic transition from a 9-bracket graduated system (top rate 8.53% in 2022) to a flat 3.8% rate for 2025 and 2026, confirmed by the Iowa Department of Revenue. The composite tax for nonresident S-corp shareholders is also 3.8% for 2026. Further reductions toward ~3.5% are under legislative consideration.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/location/iowa/",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://arnoldmotewealthmanagement.com/iowans-new-tax-law-brackets/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "KS": {
+    "annualReportFee": 55,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Kansas does not impose a traditional franchise tax on S-corporations. The annual report is filed with the Kansas Secretary of State. The annual report fee for for-profit corporations is approximately $55 (verify at sos.ks.gov as fees can change). S-corp income passes through to shareholders who pay Kansas's graduated individual income tax (rates from 3.1% to 5.7% as of 2025-2026). Kansas S-corps must file a Kansas S-corp return (Form K-120S). Kansas also imposes a small entity-level income tax on S-corps at the entity level \u2014 a tax on Kansas-apportioned income \u2014 though this is offset by a credit to shareholders.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "As of 2026, Kansas no longer levies statewide property taxes to finance the Kansas educational building fund (S.B. 35, enacted April 2025). No major S-corp-specific changes for 2025\u20132026.",
+    "complexityTier": 2,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://www.sos.ks.gov/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 23000,
+        "rate": 0.052
+      },
+      {
+        "upTo": null,
+        "rate": 0.0558
+      }
+    ]
+  },
+  "KY": {
+    "annualReportFee": 15,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Kentucky does not impose a franchise or privilege tax on S-corporations (the Limited Liability Entity Tax, or LLET, was the previous mechanism but it was significantly restructured). The annual report is filed with the Kentucky Secretary of State for approximately $15 (verify current amount at sos.ky.gov). S-corp income passes through to shareholders who pay Kentucky's flat 3.5% individual income tax (reduced from 4.0% effective January 1, 2026). Kentucky S-corps must file Form 720S. Note: Kentucky county-level occupational taxes can add up to ~2% in some jurisdictions (Louisville, Lexington) on business income, making effective rates higher.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.035,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Kentucky's flat individual income tax rate decreased from 4.0% to 3.5% on January 1, 2026, per triggers originally enacted in 2022 and formally approved by H.B. legislation. This is a significant rate reduction for S-corp shareholders.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://www.kiplinger.com/taxes/key-2026-state-tax-changes-to-know"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "LA": {
+    "annualReportFee": 35,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Louisiana made major changes effective January 1, 2026. (1) Corporate Franchise Tax: REPEALED for franchise tax periods beginning on or after January 1, 2026 (H.B. 3, 2024 Third Extraordinary Session). No franchise tax filing is required for S-corps for periods beginning in 2026+. (2) S-corp treatment: As of January 1, 2026, Louisiana now recognizes S-corps as flow-through entities for state income tax purposes (consistent with federal treatment), eliminating the prior requirement to pay corporate income tax at the entity level. S-corps file an informational CIT-620 return but shareholders \u2014 not the S-corp \u2014 pay tax on income. (3) Personal income tax: Louisiana's flat individual income tax rate is 3% (enacted as part of the 2024 Third Extraordinary Session overhaul). Shareholders pay 3% on their share of S-corp income on their personal returns. S-corps may also elect composite filing for nonresident shareholders. The annual report fee to the Louisiana Secretary of State is approximately $35 (verify at sos.la.gov via geauxBIZ). This is one of the most significant state S-corp tax overhauls of 2024-2026.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.03,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Major 2026 changes: (1) Franchise tax repealed effective January 1, 2026. (2) S-corps now recognized as pass-through entities \u2014 no entity-level corporate income tax. (3) Flat individual income tax rate of 3% (down from graduated rates up to 4.25% in 2024). (4) Corporate income tax for C-corps reduced to flat 5.5% starting January 1, 2025. These changes are verified by the Louisiana DOR's official RIB (Revenue Information Bulletin) issued January 2026.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/is-the-corporation-franchise-tax-repealed/",
+      "https://dam.ldr.la.gov/lawspolicies/Draft%20RIB-S%20corp.%20changes%20updated%201.6.2026.pdf",
+      "https://www.cbiz.com/insights/article/louisiana-issues-guidance-on-taxation-of-s-corporations-beginning-in-2026",
+      "https://www.grantthornton.com/insights/alerts/tax/2024/salt/k-o/la-adopts-flat-income-tax-rates-repeals-franchise-tax-12-20"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "ME": {
+    "annualReportFee": 85,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Maine has no franchise or privilege tax on S-corporations. The annual report is filed with the Maine Secretary of State, costing $85 for domestic for-profit corporations. S-corp income passes through to shareholders who pay Maine's graduated individual income tax (rates from 5.8% to 7.15% for 2026). Maine has a relatively high top income tax rate. Nonresident S-corp shareholders may have withholding requirements. [BRACKET NOTE: Maine enacted a NEW 2% surtax on taxable income over $500,000 (over $750,000 for MFJ and HoH) effective for tax years beginning January 1, 2026. This increases the effective top rate from 7.15% to 9.15% for high earners. Brackets here reflect this surtax. The 2026 bracket thresholds ($27,400/$64,850) are officially published by Maine Revenue Services (September 15, 2025).]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "MAJOR 2026 CHANGE: Maine enacted a 2% surtax on individual taxable income over $500,000 (MFJ/HoH: $750,000) effective for tax years beginning January 1, 2026. This raises the effective top income tax rate from 7.15% to 9.15% for high earners. The 2026 bracket thresholds ($27,400/$64,850 for single filers) were officially published by Maine Revenue Services on September 15, 2025.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.maine.gov/sos/cec/corp/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 27400,
+        "rate": 0.058
+      },
+      {
+        "upTo": 64850,
+        "rate": 0.0675
+      },
+      {
+        "upTo": 500000,
+        "rate": 0.0715
+      },
+      {
+        "upTo": null,
+        "rate": 0.0915
+      }
+    ]
+  },
+  "MD": {
+    "annualReportFee": 300,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Maryland has no franchise tax on S-corporations. The annual report and personal property return is filed with the Maryland State Department of Assessments and Taxation (SDAT) and costs $300 for most corporations. Maryland S-corp shareholders pay the state's graduated income tax (rates from 2% to 5.75% at the state level) PLUS county income taxes that range from approximately 2.25% to 3.2% depending on the county \u2014 making effective Maryland income tax rates among the highest in the nation for many residents. The combined top marginal rate (state + county) can reach approximately 8.95%. [BRACKET NOTE: Maryland's Schedule I (single filers) now includes brackets at $500K (6.25%) and $1M+ (6.50%) \u2014 added in recent years. The 6.50% top state rate explains TurboTax's reference to '6.50% for 2025 tax year.' County piggyback taxes add 1.75%\u20133.2% on top of state rates and are NOT included in brackets here. Most populated counties (Montgomery, PG, Howard, Baltimore City) add 3.2%, making combined top rate 8.95%\u20139.70%.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "Maryland added higher brackets at $500,000 (6.25%) and $1,000,000+ (6.50%) in recent years. Also enacted a 2% surtax on capital gains income for filers with AGI over $350,000 (effective TY2025+). The Comptroller's withholding tables confirm the current Schedule I structure. On May 26, 2026, Governor Moore signed additional tax legislation \u2014 verify for any further 2026 changes.",
+    "complexityTier": 2,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://dat.maryland.gov/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 1000,
+        "rate": 0.02
+      },
+      {
+        "upTo": 2000,
+        "rate": 0.03
+      },
+      {
+        "upTo": 3000,
+        "rate": 0.04
+      },
+      {
+        "upTo": 100000,
+        "rate": 0.0475
+      },
+      {
+        "upTo": 125000,
+        "rate": 0.05
+      },
+      {
+        "upTo": 150000,
+        "rate": 0.0525
+      },
+      {
+        "upTo": 250000,
+        "rate": 0.055
+      },
+      {
+        "upTo": 500000,
+        "rate": 0.0575
+      },
+      {
+        "upTo": 1000000,
+        "rate": 0.0625
+      },
+      {
+        "upTo": null,
+        "rate": 0.065
+      }
+    ]
+  },
+  "MA": {
+    "annualReportFee": 109,
+    "franchiseTaxType": "flat",
+    "franchiseTaxAmount": 456,
+    "franchiseTaxMinimum": 456,
+    "franchiseTaxNotes": "Massachusetts imposes a minimum annual excise tax on S-corporations of $456 (the so-called 'minimum corporate excise'), which is the entity-level charge regardless of income. The annual report fee is $109. In addition, Massachusetts S-corps pay an 8% entity-level tax on net income allocated to Massachusetts for built-in gains and certain other items. Shareholders pay Massachusetts's flat 5% income tax on ordinary S-corp distributions, plus a 9% surtax on income (including S-corp income) exceeding approximately $1.08M. The S-corp excise was previously $456/year plus a higher rate on net income and tangible property. Note: Massachusetts is unusual in imposing the minimum $456 excise even on S-corps that pass through all income.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.05,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "Massachusetts flat 5% rate unchanged. The 4% surtax on income >$1,083,150 (2026 threshold, indexed) remains from the 2022 ballot initiative. S-corp shareholders with income above $1M+ pay effectively 9% combined rate. The S-corp minimum excise tax of $456/year at the entity level also unchanged.",
+    "complexityTier": 3,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://www.mass.gov/orgs/massachusetts-department-of-revenue",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://lettuce.co/resources/s-corp-fees-by-state"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 1083150,
+        "rate": 0.05
+      },
+      {
+        "upTo": null,
+        "rate": 0.09
+      }
+    ]
+  },
+  "MI": {
+    "annualReportFee": 25,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Michigan has no franchise tax on S-corporations. The annual report (also called a Corporations Annual Report or Filing Statement) is filed with the Michigan Department of Licensing and Regulatory Affairs (LARA) and costs $25 for for-profit corporations. S-corp income passes through to shareholders who pay Michigan's flat 4.25% individual income tax. No entity-level income tax applies to Michigan S-corps. Michigan is phasing in rate reductions \u2014 legislation aims to cut the income tax rate toward lower levels, but the 4.25% rate is current for 2026.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.0425,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "No significant S-corp-specific changes for 2025\u20132026. Michigan's income tax rate remains at 4.25% for 2026. Legislation has been proposed to reduce rates further but has not been finalized.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://llctaxcalculator.com/llc-state-taxes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "MN": {
+    "annualReportFee": 25,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Minnesota has no franchise tax on S-corporations. The annual renewal report filed with the Minnesota Secretary of State costs $25 online. S-corp income passes through to shareholders who pay Minnesota's graduated individual income tax (rates from 5.35% to 9.85% \u2014 one of the highest top rates in the nation). No entity-level income tax applies to S-corps as pass-through entities. Minnesota's top marginal rate of 9.85% applies to income over approximately $183,340 (single) and $304,970 (married filing jointly) in 2025.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No significant S-corp-specific changes for 2025\u20132026. Minnesota's graduated income tax structure and high top rate remain unchanged.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.sos.state.mn.us/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 30070,
+        "rate": 0.0535
+      },
+      {
+        "upTo": 98760,
+        "rate": 0.068
+      },
+      {
+        "upTo": 183340,
+        "rate": 0.0785
+      },
+      {
+        "upTo": null,
+        "rate": 0.0985
+      }
+    ]
+  },
+  "MS": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "percentOfNetWorth",
+    "franchiseTaxAmount": 0.0005,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Mississippi is phasing out its franchise (capital stock) tax on a legislated schedule. For tax year 2026, the rate drops to $0.50 per $1,000 of capital in excess of $100,000 (0.05%), down from $0.75/$1,000 in TY 2025 and $1/$1,000 in earlier years. Full repeal is scheduled for January 1, 2028. Mississippi S-corps pay the declining franchise tax on their Mississippi capital. Mississippi also has no annual report filing fee for LLCs; corporation annual reports may have a nominal fee (verify at sos.ms.gov). The individual income tax for shareholders is now a flat 4.0% rate as of 2026 (Mississippi reduced its rate to 4.0% completing a multi-year reduction, though the first $10,000 of income remains exempt). Mississippi does NOT exempt small S-corps from the franchise tax \u2014 but the declining rate means the burden is minimal.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.04,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Mississippi franchise tax phase-down: TY 2025 rate was $0.75/$1,000; TY 2026 rate drops to $0.50/$1,000; full repeal effective January 1, 2028. Mississippi personal income tax: Reduced to flat 4.0% for 2026 (completing multi-year reduction; first $10,000 remains exempt). These changes are per Mississippi DOR and were confirmed in Discern's 2026 franchise tax information.",
+    "complexityTier": 2,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.discern.com/resources/franchise-tax-information",
+      "https://www.kiplinger.com/taxes/key-2026-state-tax-changes-to-know",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "MO": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Missouri has no franchise tax on S-corporations and charges no annual report fee (LLCs and corporations do not pay an annual report fee in Missouri \u2014 there is no SOS annual report requirement for most entities). Missouri S-corp income passes through to shareholders who pay Missouri's graduated individual income tax, with a top rate of 4.7% for 2026 (Missouri has been reducing rates). No entity-level tax applies to S-corps. Missouri is generally considered a low-cost state for S-corp operations. [BRACKET NOTE: Missouri uses an 8-bracket system with narrow bands. Brackets are inflation-adjusted annually by Missouri DOR. The $1,313 zero-bracket and subsequent $1,313-wide bands reflect the TY2025 figures (for returns filed in 2026). The top 4.7% rate applies above approximately $9,191. Missouri also allows a deduction for federal income tax paid, which effectively lowers the state burden. Capital gains are excluded from Missouri income (100% capital gains subtraction effective 2026 per new legislation).]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "Missouri has reduced its top individual income tax rate in recent years. As of 2026, the top rate is approximately 4.7% (down from 5.3% in 2022). Ongoing reductions are scheduled.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://llctaxcalculator.com/llc-state-taxes/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 1313,
+        "rate": 0.0
+      },
+      {
+        "upTo": 2626,
+        "rate": 0.02
+      },
+      {
+        "upTo": 3939,
+        "rate": 0.025
+      },
+      {
+        "upTo": 5252,
+        "rate": 0.03
+      },
+      {
+        "upTo": 6565,
+        "rate": 0.035
+      },
+      {
+        "upTo": 7878,
+        "rate": 0.04
+      },
+      {
+        "upTo": 9191,
+        "rate": 0.045
+      },
+      {
+        "upTo": null,
+        "rate": 0.047
+      }
+    ]
+  },
+  "MT": {
+    "annualReportFee": 15,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Montana has no franchise tax on S-corporations. The annual report filed with the Montana Secretary of State costs $15 for domestic for-profit corporations. S-corp income passes through to shareholders who pay Montana's graduated individual income tax \u2014 top rate of 5.65% for 2026 (reduced from 5.9% effective January 1, 2026, as part of an ongoing phasedown). Montana is a relatively business-friendly state with modest filing fees. [BRACKET NOTE: Montana HB 337 (2025 session, signed April 28, 2025, effective TY2026): Lower rate 4.7% expands to income up to $47,500 for single filers (up from roughly $21,500 in 2025). Top rate reduced from 5.9% to 5.65%. Confirmed by Montana DOR official withholding update (December 2025). A further reduction to 5.4% is scheduled for 2027.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "HB 337 (2025 Montana Legislature, signed April 28, 2025): Top rate reduced from 5.9% to 5.65% effective January 1, 2026; lower 4.7% rate now applies to income up to $47,500 for single filers (significantly expanded). Top rate further decreases to 5.4% for 2027. Montana EITC doubled to 20% of federal credit starting TY2026.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 47500,
+        "rate": 0.047
+      },
+      {
+        "upTo": null,
+        "rate": 0.0565
+      }
+    ]
+  },
+  "NE": {
+    "annualReportFee": 10,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Nebraska does not impose a traditional franchise tax separate from corporate income tax. Occupation taxes referenced in some sources are locally imposed city-level taxes, per Nebraska DOR. The annual report filed with the Nebraska Secretary of State costs $10 for domestic corporations (one of the lowest in the country). S-corp income passes through to shareholders who pay Nebraska's graduated income tax with a top rate of 4.55% for 2026 (down from 5.2% in 2025), continuing a phasedown to 3.99% by 2027. [BRACKET NOTE: Nebraska's top rate reduced from 5.2% to 4.55% effective January 1, 2026. Exact 2026 bracket thresholds are estimated \u2014 Nebraska's brackets are inflation-adjusted annually. The thresholds shown ($3,700/$22,170/$35,730) are approximate 2026 figures. Verify current year thresholds with Nebraska Department of Revenue (revenue.nebraska.gov). A further reduction to 3.99% is scheduled for 2027.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "Nebraska's top marginal individual income tax rate reduced from 5.2% to 4.55% effective January 1, 2026, as part of Legislative Bill 754. The corporate income tax rate also reduced to 4.55% for 2026 (from 5.2%). A further reduction to 3.99% is scheduled for 2027.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.discern.com/resources/franchise-tax-information"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 3700,
+        "rate": 0.0246
+      },
+      {
+        "upTo": 22170,
+        "rate": 0.0351
+      },
+      {
+        "upTo": 35730,
+        "rate": 0.0501
+      },
+      {
+        "upTo": null,
+        "rate": 0.0455
+      }
+    ]
+  },
+  "NV": {
+    "annualReportFee": 200,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Nevada has no personal income tax and no franchise tax on S-corporations. The annual list (annual report) filed with the Nevada Secretary of State costs $200 for corporations and $350 for LLCs. Nevada is popular for incorporation but the annual fees are higher than many states. S-corp income passes through to shareholders who pay no Nevada personal income tax. There is also a Commerce Tax in Nevada (a gross receipts tax) that applies to businesses with Nevada gross revenue exceeding $4 million \u2014 most small S-corps will fall below this threshold. If Commerce Tax applies, rates vary by industry (0.05% to 0.362% on gross revenue over $4M).",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "Nevada's annual list fee for corporations is approximately $200 (verify at nvsilverflume.gov). No significant S-corp-specific changes for 2025\u20132026. The Commerce Tax threshold of $4M gross revenue has remained unchanged.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://llctaxcalculator.com/llc-state-taxes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "NH": {
+    "annualReportFee": 100,
+    "franchiseTaxType": "percentOfIncome",
+    "franchiseTaxAmount": 0.06,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "New Hampshire is unusual. It has no personal income tax on wages or salaries, but it DOES impose a Business Profits Tax (BPT) at 7.5% (reduced from 7.6% in 2023) and a Business Enterprise Tax (BET) at 0.6% of enterprise value tax base (compensation, interest, and dividends). For S-corps, the BPT applies at 7.5% on NH-apportioned net income over $92,000 (adjusted threshold), and the BET at 0.6% applies to payroll, interest, and dividends paid. NH eliminated its Interest and Dividends Tax effective January 1, 2025 \u2014 previously 3% on investment income. So S-corp owners who relied on NH's 'no income tax' claim should note: NH does tax business income at the entity level through the BPT. The annual report is filed with the NH Department of State, costing approximately $100. NH also has no sales tax.",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "New Hampshire eliminated its Interest and Dividends Tax (3%) effective January 1, 2025, making NH more purely a no-income-tax state for individuals. However, the BPT (7.5%) and BET (0.6%) at the entity level still apply to S-corps. The BPT rate was reduced from 7.7% to 7.5% effective January 1, 2023.",
+    "complexityTier": 4,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.revenue.nh.gov/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "NJ": {
+    "annualReportFee": 75,
+    "franchiseTaxType": "flat",
+    "franchiseTaxAmount": 375,
+    "franchiseTaxMinimum": 375,
+    "franchiseTaxNotes": "New Jersey imposes a minimum CBT (Corporation Business Tax) fee on S-corporations based on New Jersey gross receipts. The minimum fee schedule for S-corps is: $375 for gross receipts under $100,000; $562.50 for $100,000\u2013$250,000; $750 for $250,000\u2013$500,000; $1,250 for $500,000\u2013$1M; $1,500 for $1M\u2013$2M; $2,000 for $2M\u2013$5M; $2,500 for $5M\u2013$10M; etc. (verify current schedule at nj.gov/treasury/taxation). The annual report filed with NJ Treasury costs $75. NJ S-corp shareholders pay New Jersey's graduated income tax (top rate 10.75% for income over $1M \u2014 the second highest top rate in the US as of 2026). New Jersey's combined federal/state income tax burden is one of the heaviest in the nation.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No major NJ S-corp-specific changes for 2025\u20132026. New Jersey's top individual income tax rate of 10.75% remains the second highest in the US. The CBT minimum fee schedule has been stable.",
+    "complexityTier": 3,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.nj.gov/treasury/taxation/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 20000,
+        "rate": 0.014
+      },
+      {
+        "upTo": 35000,
+        "rate": 0.0175
+      },
+      {
+        "upTo": 40000,
+        "rate": 0.035
+      },
+      {
+        "upTo": 75000,
+        "rate": 0.05525
+      },
+      {
+        "upTo": 500000,
+        "rate": 0.0637
+      },
+      {
+        "upTo": 1000000,
+        "rate": 0.0897
+      },
+      {
+        "upTo": null,
+        "rate": 0.1075
+      }
+    ]
+  },
+  "NM": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "New Mexico has no franchise tax on S-corporations and no annual report fee (New Mexico LLCs and corporations generally do not file annual reports). S-corp income passes through to shareholders who pay New Mexico's graduated personal income tax (rates from 1.7% to 5.9% for 2026). No entity-level tax applies to S-corps themselves. New Mexico is relatively low-cost for S-corp compliance.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No significant S-corp-specific changes for 2025\u20132026. New Mexico's top individual income tax rate of 5.9% has remained stable.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://llctaxcalculator.com/llc-state-taxes/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 5500,
+        "rate": 0.015
+      },
+      {
+        "upTo": 16500,
+        "rate": 0.032
+      },
+      {
+        "upTo": 33500,
+        "rate": 0.043
+      },
+      {
+        "upTo": 66500,
+        "rate": 0.047
+      },
+      {
+        "upTo": 210000,
+        "rate": 0.049
+      },
+      {
+        "upTo": null,
+        "rate": 0.059
+      }
+    ]
+  },
+  "NY": {
+    "annualReportFee": 9,
+    "franchiseTaxType": "complex",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": 25,
+    "franchiseTaxNotes": "New York S-corporations pay a Fixed Dollar Minimum Tax (FDMT) based on New York receipts, filed on Form CT-3-S. IMPORTANT: Federal S status does NOT automatically confer New York S status \u2014 corporations must file Form CT-6 (signed by all shareholders) to be treated as a NY S-corp; without this, the entity is taxed as a NY C-corp. The FDMT bracket schedule (from CT-3-I 2025 instructions, applied in 2026): Under $100,000 NY receipts = $25; $100k\u2013$250k = $75; $250k\u2013$500k = $175; $500k\u2013$1M = $500; $1M\u2013$5M = $1,500; $5M\u2013$25M = $3,500; $25M\u2013$50M = $5,000; over $50M = $100,000. The annual report biennial filing with NYDOS costs $9 (domestic corporations). Note: The MTA surcharge does NOT apply to NY S-corps. Shareholders pay NY's graduated personal income tax (rates 4%\u201310.9%, NYC residents add up to 3.876% more). NY also has a powerful optional Pass-Through Entity Tax (PTET) election (due March 15 each year) that can provide significant tax savings under the federal SALT cap. Qualified New York manufacturers pay lower FDMT amounts. [BRACKET NOTE: New York brackets shown are for TY2025 (income earned in 2025, returns due April 15, 2026). These are the brackets that apply to S-corp distributions for calendar-year 2025. Note: New York has a tax recapture provision for very high earners (AGI >$107,650) that can effectively eliminate the benefit of lower brackets. The 10.9% top rate applies above $25 million (affecting very few). NYC residents pay an additional 3.078%\u20133.876% city tax on top of state brackets. NY S-corps must file Form CT-6 to be treated as NY S-corps (not automatic).]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "For tax years beginning on or after January 1, 2026, estimated tax threshold for NY S-corps changed (previously $1,000; verify current rules with NYDOS/DTF). The NY PTET election deadline remains March 15 of each tax year. The FDMT schedule has been stable; verify with current year CT-3-S instructions from tax.ny.gov. No rate changes to the FDMT for 2026.",
+    "complexityTier": 4,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.tax.ny.gov/bus/ct/s_corporations_post.htm",
+      "https://www.tax.ny.gov/pdf/current_forms/ct/ct3i.pdf",
+      "https://reedcorp.tax/helpful-guides/new-york-s-corporation-taxation/",
+      "https://jupid.com/blog/new-york-estimated-tax-payments-2026"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 17150,
+        "rate": 0.04
+      },
+      {
+        "upTo": 23600,
+        "rate": 0.045
+      },
+      {
+        "upTo": 27900,
+        "rate": 0.0525
+      },
+      {
+        "upTo": 161550,
+        "rate": 0.0585
+      },
+      {
+        "upTo": 323200,
+        "rate": 0.0625
+      },
+      {
+        "upTo": 2155350,
+        "rate": 0.0685
+      },
+      {
+        "upTo": 5000000,
+        "rate": 0.0965
+      },
+      {
+        "upTo": 25000000,
+        "rate": 0.103
+      },
+      {
+        "upTo": null,
+        "rate": 0.109
+      }
+    ]
+  },
+  "NC": {
+    "annualReportFee": 25,
+    "franchiseTaxType": "complex",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": 200,
+    "franchiseTaxNotes": "North Carolina imposes a franchise tax on S-corporations, recently restructured. For tax years beginning on or after January 1, 2025, the franchise tax is: $500 on the first $1,000,000 of the tax base (net worth), PLUS $1.50 per $1,000 of net worth above $1,000,000. The minimum franchise tax for most entities is $200. This represents a change from the prior $1.50/$1,000 flat rate with lower minimum. The annual report fee for corporations is $25. North Carolina S-corp shareholders pay NC's flat 3.99% individual income tax for 2026 (reduced from 4.25%, as part of a phasedown that has now reached its final step \u2014 3.99% is the permanent flat rate per legislation enacted in 2021).",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.0399,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "NC franchise tax restructured for tax years beginning on or after January 1, 2025: now $500 on first $1M of net worth + $1.50/$1,000 above $1M (per NCDOR). NC individual income tax rate reduced to 3.99% on January 1, 2026 \u2014 this is the final step in a phasedown enacted in 2021. 3.99% is now the statutory flat rate.",
+    "complexityTier": 3,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.discern.com/resources/franchise-tax-information",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "ND": {
+    "annualReportFee": 50,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "North Dakota has no franchise tax on S-corporations. The annual report is filed with the North Dakota Secretary of State, costing approximately $50 for domestic corporations. S-corp income passes through to shareholders who pay North Dakota's graduated income tax (top rate approximately 2.5% as of 2025\u20132026 \u2014 North Dakota has been aggressively reducing rates). ND is one of the lower-tax states for personal income. [BRACKET NOTE: North Dakota uses 3 brackets: 0% / 1.95% / 2.50%. The 0% bracket threshold represents approximately the standard deduction level \u2014 taxpayers with taxable income (after federal standard deduction) below a low threshold owe nothing. The exact 2026 thresholds are inflation-adjusted by the North Dakota Office of State Tax Commissioner and may differ from the approximate $44,725 figure shown. The 2.50% top rate applies to income above approximately $244,825 (2025 figure, adjusted for 2026 inflation).]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "North Dakota has reduced its income tax rates significantly in recent years. As of 2025\u20132026, the top marginal rate is approximately 2.5% (verify current brackets at nd.gov/tax as rates have been in flux).",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.nd.gov/tax/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 44725,
+        "rate": 0.0
+      },
+      {
+        "upTo": 244825,
+        "rate": 0.0195
+      },
+      {
+        "upTo": null,
+        "rate": 0.025
+      }
+    ]
+  },
+  "OH": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Ohio eliminated its corporation franchise tax in 2010. Ohio does not require annual report filings for most businesses. Ohio S-corps are pass-through entities and do not pay Ohio entity-level income tax (Ohio eliminated its state income tax on business income for pass-through entities under specific conditions). Ohio has a Commercial Activity Tax (CAT) \u2014 a gross receipts tax at 0.26% on Ohio gross receipts over $150,000 (with a minimum $150 fee). Most small S-corps with Ohio receipts under $150,000 pay nothing. The CAT rate is 0.26% and applies at the entity level. Shareholders pay no Ohio personal income tax on S-corp distributions that qualify as business income \u2014 Ohio has a 3% income tax credit for business income, and income up to $125,000 from a pass-through is often fully deductible under Ohio's Business Income Deduction. Ohio moved to a flat 2.75% nonbusiness income tax on income over $26,050 in 2026 (below $26,050 is tax-free).",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.0275,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Ohio implemented a flat 2.75% income tax on nonbusiness income over $26,050, effective January 1, 2026, under HB 96. Income below $26,050 is untaxed. Business income from S-corps may qualify for Ohio's Business Income Deduction (up to $125,000 deductible at 0%; amount over $125,000 taxed at 3%). The CAT threshold and rate structure also changed \u2014 verify with Ohio DOR for 2026 specifics.",
+    "complexityTier": 4,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://tax.ohio.gov/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "OK": {
+    "annualReportFee": 25,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Oklahoma fully repealed its franchise tax effective for tax year 2024 forward \u2014 no franchise tax filing is required for TY2024+. This repeal is complete and confirmed. The annual report filed with the Oklahoma Secretary of State costs approximately $25 (verify at sos.ok.gov). S-corp income passes through to shareholders who pay Oklahoma's graduated individual income tax, now simplified to 3 brackets with a top rate of 4.5% for 2026 (reduced from 4.75%). [BRACKET NOTE: Oklahoma simplified from 6 brackets to 3 brackets effective January 1, 2026 (HB 2764). The new brackets are 2.5%, 3.5%, and 4.5%. Exact threshold amounts: verify with Oklahoma Tax Commission (oks.state.ok.us) as the precise break points between the 3 new brackets were not confirmed in sources. The $10,000/$26,000 thresholds shown here are MEDIUM confidence estimates. After 2026, rates decrease by 0.25%/year (contingent on revenue triggers) potentially reaching 0%.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "Oklahoma simplified from 6 brackets to 3 brackets (2.5%/3.5%/4.5%) effective January 1, 2026, per HB 2764. Top rate reduced from 4.75% to 4.5%. After 2026, all three rates reduce by 0.25% annually until reaching 0% if revenue triggers are met.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://www.discern.com/resources/franchise-tax-information",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 10000,
+        "rate": 0.025
+      },
+      {
+        "upTo": 26000,
+        "rate": 0.035
+      },
+      {
+        "upTo": null,
+        "rate": 0.045
+      }
+    ]
+  },
+  "OR": {
+    "annualReportFee": 100,
+    "franchiseTaxType": "percentOfRevenue",
+    "franchiseTaxAmount": 0.0057,
+    "franchiseTaxMinimum": 150,
+    "franchiseTaxNotes": "Oregon imposes a Corporate Activity Tax (CAT) \u2014 a gross receipts-style tax at 0.57% of Oregon commercial activity exceeding $1 million, with a $250 minimum for those subject to the tax. S-corps with Oregon commercial activity over $1M owe the CAT at 0.57% of receipts above $1M, regardless of profitability. Oregon also requires a minimum excise tax of $150 for S-corps filed on Form OR-20-S. The annual report fee is $100 for domestic profit corporations. Oregon shareholders pay OR's graduated income tax (rates from 4.75% to 9.9% \u2014 some of the highest in the nation) on S-corp distributions. Oregon has no statewide sales tax.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No significant structural S-corp changes for 2025\u20132026. Oregon's CAT (0.57% on gross receipts over $1M) continues to apply at the entity level. The $150 minimum excise for S-corps remains unchanged.",
+    "complexityTier": 4,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.oregon.gov/dor/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 10000,
+        "rate": 0.0475
+      },
+      {
+        "upTo": 125000,
+        "rate": 0.0675
+      },
+      {
+        "upTo": 250000,
+        "rate": 0.0875
+      },
+      {
+        "upTo": null,
+        "rate": 0.099
+      }
+    ]
+  },
+  "PA": {
+    "annualReportFee": 7,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Pennsylvania eliminated its Capital Stock and Foreign Franchise Tax effective January 1, 2016. No franchise tax applies to S-corps in Pennsylvania. The annual report fee is just $7 \u2014 one of the lowest in the country. CRITICAL NOTE: Pennsylvania does NOT automatically recognize the federal S-corp election. Corporations must separately elect Pennsylvania S-corp status, allowing pass-through treatment under 72 P.S. \u00a77301(s.1). Without this election, a corporation is treated as a C-corp for PA purposes and pays the PA Corporate Net Income Tax at 7.49% (for 2026, down from 7.99% in 2025). If the PA S-corp election is properly made, income passes through to shareholders who pay PA's flat 3.07% personal income tax on their share. Pennsylvania's Corporate Net Income Tax is declining annually from 9.99% (pre-2023) to 4.99% by 2031 under Act 53 of 2022. For properly elected PA S-corps, the 3.07% individual tax applies at the shareholder level.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.0307,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "PA Corporate Net Income Tax rate: 9.99% (pre-2023) \u2192 8.99% (2023) \u2192 7.99% (2025) \u2192 7.49% (2026) \u2192 continuing reductions to 4.99% by 2031 under Act 53. This rate applies to C-corps and to PA-registered corps that failed to make the PA S-corp election. NOL deduction limitation increases from 40% to 50% for 2026 (increasing 10% annually through 2029).",
+    "complexityTier": 3,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes/corporate-net-income-tax",
+      "https://taxfoundation.org/data/all/state/state-corporate-income-tax-rates-brackets/",
+      "https://hbkcpa.com/insights/pennsylvania-c-corporation-tax-changes-2025/",
+      "https://unclekam.com/taxprofessional/states/pennsylvania-business-tax/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "RI": {
+    "annualReportFee": 50,
+    "franchiseTaxType": "flat",
+    "franchiseTaxAmount": 400,
+    "franchiseTaxMinimum": 400,
+    "franchiseTaxNotes": "Rhode Island imposes a Business Corporation Tax minimum on S-corporations. The minimum franchise tax for S-corps is approximately $400 per year (the exact current amount should be verified with the Rhode Island Division of Taxation, as Rhode Island's minimum tax has been revised in recent years). The annual report filed with the Rhode Island Secretary of State costs $50. Rhode Island S-corp shareholders pay RI's graduated individual income tax (top rate 5.99%). Rhode Island is on the higher end of small S-corp costs in the Northeast due to the $400+ minimum. [BRACKET NOTE: Rhode Island 3 brackets confirmed (3.75%\u20135.99%). The 2026 bracket thresholds shown ($73,450/$166,950) reflect approximate inflation-adjusted amounts; verify with RI Division of Taxation at tax.ri.gov. Note: Starting TY2027, a 1% surtax on income >$1M will be imposed (making top rate 6.99%), jumping to 2% for 2028 and 3% for 2029+.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No confirmed major S-corp-specific changes for 2025\u20132026. Verify current minimum franchise tax with RI Division of Taxation at tax.ri.gov.",
+    "complexityTier": 2,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://lettuce.co/resources/s-corp-fees-by-state"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 73450,
+        "rate": 0.0375
+      },
+      {
+        "upTo": 166950,
+        "rate": 0.0475
+      },
+      {
+        "upTo": null,
+        "rate": 0.0599
+      }
+    ]
+  },
+  "SC": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "South Carolina does not impose a franchise tax on S-corporations and charges no annual report fee for LLCs (corporations may have a nominal registration requirement \u2014 verify at sos.sc.gov). S-corp income passes through to shareholders who pay South Carolina's graduated individual income tax. In 2026, SC's top marginal rate was temporarily reduced to 6.0% (from 6.2%) from July 1, 2025, through June 30, 2026, per SC's FY 2026 budget. The rate structure uses H.4216 formulas. SC is phasing down rates over multiple years. [BRACKET NOTE: South Carolina restructured its income tax to 2 brackets for 2026: 1.99% on lower income and 5.21% on higher income. The exact threshold is approximately $3,460 (verify with SC DOR \u2014 the threshold is set under the SC income tax restructuring act). Note: SC's top rate was temporarily reduced to 6.0% for FY2026 (July 2025\u2013June 2026), but then restructured to 2 brackets for the full TY2026. After 2026, the 5.21% rate will decrease annually if revenue targets are met, with potential for full elimination.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "South Carolina restructured individual income tax to 2 brackets for 2026: 1.99% and 5.21%. This is a major structural simplification. After 2026, the 5.21% rate will decrease annually if revenue conditions are met \u2014 potentially eliminating SC income tax entirely in future years.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://levyio.com/blog/state-income-tax-rates/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 3460,
+        "rate": 0.0199
+      },
+      {
+        "upTo": null,
+        "rate": 0.0521
+      }
+    ]
+  },
+  "SD": {
+    "annualReportFee": 50,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "South Dakota has no personal income tax and no franchise tax on S-corporations. The annual report filed with the South Dakota Secretary of State costs approximately $50 for domestic for-profit corporations. South Dakota is one of the most S-corp-friendly states: zero entity-level tax, no personal income tax on distributions, minimal annual compliance fees. No gross receipts tax either. This makes SD similar to Wyoming and Nevada for low-cost S-corp operation.",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "No significant changes. South Dakota remains one of only 9 states with no personal income tax and also has no franchise or gross receipts tax on S-corps.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://llctaxcalculator.com/llc-state-taxes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "TN": {
+    "annualReportFee": 20,
+    "franchiseTaxType": "percentOfNetWorth",
+    "franchiseTaxAmount": 0.0025,
+    "franchiseTaxMinimum": 100,
+    "franchiseTaxNotes": "Tennessee imposes a Franchise Tax at 0.25% of the greater of the entity's net worth or book value of real and tangible personal property in Tennessee, with a $100 minimum annually. Tennessee also imposes an Excise Tax of 6.5% on net income (Tennessee taxable income). These are filed together on Form FAE170. Key point: The excise tax is an entity-level income tax that applies to S-corps \u2014 unlike most states where S-corp income passes through untaxed at the entity level. Tennessee S-corps pay BOTH the franchise tax (0.25% on net worth) AND the excise tax (6.5% on net income, with a $50,000 standard deduction per the Tennessee Works Tax Act). There is no Tennessee personal income tax on wage/salary income. The $20 annual report fee is an approximation for the Secretary of State \u2014 verify current amount at sos.tn.gov as Tennessee's filing fees have been updated. Tennessee became fully free of personal income tax on investment income effective January 1, 2022 (Hall Income Tax repealed).",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "Tennessee Works Tax Act (SB 275, effective 2023\u20132024): Added $50,000 excise tax standard deduction (businesses exempt first $50K of net income); $500,000 franchise tax property/net worth base exemption; Business Tax threshold raised to $100K. Property measure (Schedule G) repealed \u2014 franchise tax now calculated solely on net worth at 0.25% (per SB 2103/HB 1893, April 2024).",
+    "complexityTier": 3,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+      "https://www.discern.com/resources/tennessee-franchise-tax-filing-information",
+      "https://damienslaw.com/tn-taxes/franchise-excise-taxes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "TX": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "percentOfRevenue",
+    "franchiseTaxAmount": 0.0075,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Texas imposes a Franchise Tax (Margin Tax) on all taxable entities including S-corps \u2014 Texas ignores the federal S-corp election for franchise tax purposes. The standard rate is 0.75% of taxable margin for most entities, or 0.375% for retail/wholesale businesses. However, the no-tax-due threshold for the 2026 report year is $2,650,000 in annualized total revenue (increased from $2,470,000 for 2024\u20132025 reports, confirmed by Texas Comptroller). Entities below this threshold owe zero franchise tax but must still file a Public Information Report (PIR) by May 15. Entities with up to $20M in revenue may use the EZ Computation method (0.331% of gross receipts). Taxable margin = lowest of: 70% of revenue, revenue minus COGS, revenue minus compensation (capped at $480,000 per person in 2026, up from $450,000), or revenue minus $1M. There is NO separate annual report filing fee in Texas (the PIR is free). Texas has no state income tax. S-corp shareholders pay no Texas personal income tax on distributions.",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "2026 franchise tax changes (per Texas Comptroller): No-tax-due threshold raised to $2,650,000 (from $2,470,000). Compensation deduction cap increased to $480,000 per person (from $450,000). IRC conformity rule updated effective March 1, 2026 \u2014 total revenue now based on current federal IRC rather than 2007 IRC (except where 2007 IRC is specifically referenced in statute). New Subchapter T R&D credit effective for 2026.",
+    "complexityTier": 3,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://comptroller.texas.gov/taxes/franchise/forms/2026-franchise.php",
+      "https://comptroller.texas.gov/taxes/tax-policy-news/2026-april.php",
+      "https://www.discern.com/resources/texas-annual-report",
+      "https://otterz.co/texas-franchise-tax-llcs-and-s-corps/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "UT": {
+    "annualReportFee": 18,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Utah has no franchise tax on S-corporations. The annual report filed with the Utah Division of Corporations costs approximately $18 (verify at corporations.utah.gov). Utah S-corp income passes through to shareholders who pay Utah's flat 4.5% individual income tax (reduced from 4.55% per House Bill 106, signed March 2025, retroactive to January 1, 2025). No entity-level tax applies to S-corps.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": 0.045,
+    "personalIncomeTaxType": "flat",
+    "recentChanges": "Utah's flat income tax rate was reduced from 4.55% to 4.5%, retroactive to January 1, 2025, per House Bill 106 signed March 2025. This 4.5% rate applies for the 2025 and 2026 tax years. This is the latest in a series of rate reductions.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "VT": {
+    "annualReportFee": 45,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Vermont has no franchise tax on S-corporations. The annual report filed with the Vermont Secretary of State costs approximately $45 for domestic corporations. Vermont S-corp shareholders pay Vermont's graduated individual income tax (rates from 3.35% to 8.75% \u2014 a high top rate relative to most states). No entity-level tax applies to S-corps. [BRACKET NOTE: Vermont brackets (3.35%\u20138.75%) confirmed by TurboTax and Tax Foundation for TY2025-2026. Thresholds ($45,400/$110,050/$249,700) are approximate inflation-adjusted figures. Vermont's top rate of 8.75% applies above $249,700 for single filers. Verify exact 2026 thresholds with Vermont Department of Taxes (tax.vermont.gov).]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No significant S-corp-specific changes for 2025\u20132026 in Vermont. Vermont's graduated income tax structure remains unchanged.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.sec.state.vt.us/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 45400,
+        "rate": 0.0335
+      },
+      {
+        "upTo": 110050,
+        "rate": 0.066
+      },
+      {
+        "upTo": 249700,
+        "rate": 0.076
+      },
+      {
+        "upTo": null,
+        "rate": 0.0875
+      }
+    ]
+  },
+  "VA": {
+    "annualReportFee": 0,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Virginia has no franchise tax on S-corporations and no annual report fee for LLCs (the registration fee is minimal). Virginia S-corps must file Form 502 (Pass-Through Entity) and Form 502S (S-corp). Virginia imposes a Pass-Through Entity Tax (PTET) option that S-corps can elect to pay tax at the entity level at the shareholders' individual rates as a workaround for the federal SALT cap. Without the PTET election, shareholders pay Virginia's graduated individual income tax (rates from 2% to 5.75%, with the top rate applying above $17,000 \u2014 a very low threshold, meaning most income is taxed at 5.75%). Virginia's top individual income tax rate has been 5.75% since the mid-1990s with no changes expected.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No significant S-corp-specific changes for 2025\u20132026. Virginia's PTET election option remains available. The top individual income tax rate of 5.75% applies to income over just $17,000 (the bracket thresholds have not been updated for inflation in decades).",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.tax.virginia.gov/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 3000,
+        "rate": 0.02
+      },
+      {
+        "upTo": 5000,
+        "rate": 0.03
+      },
+      {
+        "upTo": 17000,
+        "rate": 0.05
+      },
+      {
+        "upTo": null,
+        "rate": 0.0575
+      }
+    ]
+  },
+  "WA": {
+    "annualReportFee": 71,
+    "franchiseTaxType": "percentOfRevenue",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Washington State has no personal income tax and no traditional franchise tax, but it imposes a Business & Occupation (B&O) Tax \u2014 a gross receipts tax that applies to S-corps and all other business entities equally. S-corps are NOT treated differently from other entity types. B&O rates (effective October 1, 2025 for Service/Other Activities): Tier 1 (prior year service income under $1M): 1.5%; Tier 2 ($1M\u2013$4.99M): 1.75%; Tier 3 ($5M+): 2.1%. Hospitals remain at 1.5% regardless. Retailing B&O: 0.471% (increasing to 0.5% under 2025 budget). Manufacturing/wholesaling: 0.484%\u20130.5%. The annual report filed with the WA Secretary of State costs $71 (filed annually). Washington has a small business B&O credit for lower-liability businesses. Note: Seattle and other cities impose separate local B&O taxes (Seattle increased rates and raised threshold to $2M standard deduction in January 2026). No state income tax means S-corp distributions are not taxed at the personal level by Washington State. A proposed millionaire's income tax (9.9% on income over $1M) was passed March 2026 \u2014 verify if signed into law and effective date, as it would affect high-income S-corp shareholders beginning January 1, 2028 if enacted.",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "Major 2025\u20132026 changes: (1) B&O Service and Other Activities now uses tiered rates (1.5%/1.75%/2.1%) based on prior-year service income, effective October 1, 2025. (2) B&O rates on retailing/manufacturing increased toward 0.5%. (3) Governor Ferguson signed the 2026\u20132027 budget (May 2025) including new surcharges on advanced computing businesses and financial institutions. (4) A 0.5% surcharge on businesses with over $250M in Washington revenue was enacted. (5) Seattle B&O: rates increased and standard deduction raised to $2M effective January 1, 2026. (6) A proposed 9.9% income tax on income over $1M was passed by legislature March 2026 \u2014 verify gubernatorial signature and effective date.",
+    "complexityTier": 4,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+      "https://dor.wa.gov/forms-publications/publications-subject/special-notices/service-and-other-activities-rate-changes",
+      "https://www.withum.com/resources/washington-state-tax-updates/",
+      "https://legalclarity.org/how-to-file-bo-tax-in-washington-state-rates-and-due-dates/",
+      "https://www.llcuniversity.com/washington-llc/taxes/"
+    ],
+    "personalIncomeTaxBrackets": null
+  },
+  "WV": {
+    "annualReportFee": 25,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "West Virginia does not impose a franchise tax on S-corporations. The annual report filed with the West Virginia Secretary of State costs approximately $25. West Virginia S-corp income passes through to shareholders who pay WV's graduated individual income tax (rates from 3% to 6.5% as of 2025\u20132026, with West Virginia actively reducing rates toward a flat structure). West Virginia is one of the states trending toward flat income tax \u2014 multiple rate reductions have been enacted in recent years. [BRACKET NOTE: West Virginia reduced all 5 individual income tax rates for TY2026 per TurboTax. Top rate dropped from 4.82% (2025) to 4.58% (2026). WV is on a legislated path toward a flat/lower tax structure. The rate thresholds shown ($10,000/$25,000/$40,000/$60,000) are approximate \u2014 verify with WV State Tax Division.]",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "West Virginia reduced all 5 individual income tax rates for TY2026. Top rate dropped from 4.82% (2025) to 4.58% (2026). WV is pursuing further rate reductions toward a flatter, lower income tax system.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.wv.gov/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 10000,
+        "rate": 0.0236
+      },
+      {
+        "upTo": 25000,
+        "rate": 0.0314
+      },
+      {
+        "upTo": 40000,
+        "rate": 0.0393
+      },
+      {
+        "upTo": 60000,
+        "rate": 0.0447
+      },
+      {
+        "upTo": null,
+        "rate": 0.0458
+      }
+    ]
+  },
+  "WI": {
+    "annualReportFee": 25,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Wisconsin does not impose a franchise tax on S-corporations. The annual report filed with the Wisconsin Department of Financial Institutions costs $25. Wisconsin S-corp income passes through to shareholders who pay Wisconsin's graduated individual income tax (rates from 3.5% to 7.65% as of 2025\u20132026). Wisconsin is considered a relatively high-tax state for personal income. No entity-level tax applies to S-corps.",
+    "hasPersonalIncomeTax": true,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "graduated",
+    "recentChanges": "No significant S-corp-specific changes for 2025\u20132026. Wisconsin's graduated income tax structure and rates have been stable.",
+    "complexityTier": 1,
+    "dataConfidence": "medium",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://www.dfi.wi.gov/"
+    ],
+    "personalIncomeTaxBrackets": [
+      {
+        "upTo": 14320,
+        "rate": 0.035
+      },
+      {
+        "upTo": 28640,
+        "rate": 0.044
+      },
+      {
+        "upTo": 323290,
+        "rate": 0.053
+      },
+      {
+        "upTo": null,
+        "rate": 0.0765
+      }
+    ]
+  },
+  "WY": {
+    "annualReportFee": 60,
+    "franchiseTaxType": "none",
+    "franchiseTaxAmount": null,
+    "franchiseTaxMinimum": null,
+    "franchiseTaxNotes": "Wyoming has no personal income tax and no franchise tax on S-corporations. The Annual Report/License Tax filed with the Wyoming Secretary of State costs the greater of $60 or 0.02% of the Wyoming value of assets (so most S-corps with limited in-state assets pay $60). Wyoming is consistently ranked one of the best states for S-corp tax treatment: no income tax, no franchise tax, and one of the lowest annual fees. No gross receipts tax. S-corp distributions are completely untaxed at the state level.",
+    "hasPersonalIncomeTax": false,
+    "personalIncomeTaxRate": null,
+    "personalIncomeTaxType": "none",
+    "recentChanges": "Wyoming enacted SF0048 increasing the property tax exemption for business personal property from $2,400 to $75,000 effective 2026 \u2014 this benefits Wyoming businesses that own equipment but is not directly an S-corp income tax change. Annual report fee remains at $60 minimum.",
+    "complexityTier": 1,
+    "dataConfidence": "high",
+    "sourcesChecked": [
+      "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "https://taxfoundation.org/research/all/state/2026-state-tax-changes/",
+      "https://www.corporatedirect.com/blog/state-franchise-fees-beware-of-delawares-new-rules"
+    ],
+    "personalIncomeTaxBrackets": null
+  }
+}
